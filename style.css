@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+.left-panel{
+  width: 30%;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+
+.profile h2{
+  margin-top: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: #00ffcc;
+}
+
+.right-panel {
+  width: 70%;
+  padding: 40px;
+  background: #cdcbd7;
+}
